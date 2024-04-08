@@ -47,3 +47,5 @@ jobs:
           docker push jimmy1305//shop1305:${{ github.sha }}
           docker push jimmy1305//shop1305:latest
 
+          
+
