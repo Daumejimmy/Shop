@@ -44,6 +44,8 @@ jobs:
         run: |
           docker build -t jimmy1305/shop1305:${{ github.sha }} .
           docker tag jimmy1305/shop1305:${{ github.sha }} jimmy1305/shop1305:latest
+          docker push jimmy1305//shop1305:${{ github.sha }}
+          docker push jimmy1305//shop1305:latest
          
 
           
