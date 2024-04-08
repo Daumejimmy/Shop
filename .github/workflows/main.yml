@@ -42,8 +42,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t Jimmy1305/shop1305:${{ github.sha }} .
-          docker tag Jimmy1305/shop1305:${{ github.sha }} Jimmy1305/shop1305:latest
-          docker push Jimmy1305//shop1305:${{ github.sha }}
-          docker push Jimmy1305//shop1305:latest
+          docker build -t jimmy1305/shop1305:${{ github.sha }} .
+          docker tag jimmy1305/shop1305:${{ github.sha }} jimmy1305/shop1305:latest
+          docker push jimmy1305//shop1305:${{ github.sha }}
+          docker push jimmy1305//shop1305:latest
 
